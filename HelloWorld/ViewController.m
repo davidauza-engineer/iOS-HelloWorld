@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
 
 @end
 
@@ -19,5 +20,8 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)testButtonTapped:(id)sender {
+    self.testLabel.text = @"It worked!";
+}
 
 @end
