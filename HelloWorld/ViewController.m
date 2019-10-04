@@ -38,7 +38,7 @@
         // 1in is 2.54 cm
         double heightCm = ((heightFeet * 12) + heightInches) * 2.54;
         if (heightCm > 100.00) {
-            self.testLabel.text = @"This text doesn't have to make sense";
+            self.testLabel.text = @"You are over 1 meter tall!";
         } else {
             self.testLabel.text = @"You are under 1 meter tall!";
         }
