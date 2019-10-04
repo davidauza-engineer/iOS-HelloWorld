@@ -32,10 +32,17 @@
 - (IBAction)testButtonTapped:(id)sender {
     NSString *standardText = @"Click the button below";
     if ([self.testLabel.text isEqual:standardText]) {
+        // I'm 5ft 11in
         int heightFeet = 5;
-        int heightInches = 11; // I'm 5ft 11in
+        int heightInches = 11;
+        // 1in is 2.54 cm
         double heightCm = ((heightFeet * 12) + heightInches) * 2.54;
-        self.testLabel.text = [NSString stringWithFormat:@"%f", heightCm];
+        if (heightCm > 100.00) {
+            self.testLabel.text = @"This text doesn't have to make sense";
+        } else {
+            self.testLabel.text = @"You are under 1 meter tall!";
+        }
+//        self.testLabel.text = [NSString stringWithFormat:@"%f", heightCm];
         [_button setTitle:@"Go back!" forState:UIControlStateNormal];
     } else {
         self.testLabel.text = standardText;
