@@ -23,8 +23,8 @@
                                     <action selector="testButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="897-45-XMb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the button below" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipz-Eh-9qR">
-                                <rect key="frame" x="121" y="290" width="172" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the button below:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipz-Eh-9qR">
+                                <rect key="frame" x="119" y="368" width="176" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,10 +32,14 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="2uT-Pm-xov" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="15w-KN-f9T"/>
                             <constraint firstItem="2uT-Pm-xov" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q8w-jY-QRN"/>
+                            <constraint firstItem="2uT-Pm-xov" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SEA-3u-9iB"/>
+                            <constraint firstItem="ipz-Eh-9qR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e8P-Fh-04c"/>
                             <constraint firstItem="ipz-Eh-9qR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fTY-dd-3mS"/>
                             <constraint firstItem="2uT-Pm-xov" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iRB-nB-Q94"/>
-                            <constraint firstItem="2uT-Pm-xov" firstAttribute="top" secondItem="ipz-Eh-9qR" secondAttribute="bottom" constant="122" id="lWL-hP-mDz"/>
+                            <constraint firstItem="2uT-Pm-xov" firstAttribute="top" secondItem="ipz-Eh-9qR" secondAttribute="bottom" constant="44" id="lWL-hP-mDz"/>
+                            <constraint firstItem="ipz-Eh-9qR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mGb-dy-g4q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fNM-hs-a39"/>
                     </view>
